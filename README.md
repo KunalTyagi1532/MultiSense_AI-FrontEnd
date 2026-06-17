@@ -1,4 +1,4 @@
-markdown# MultiSense AI
+# MultiSense AI
 
 > AI-powered multimodal analyzer for social media content — built with Flutter, FastAPI, and Hugging Face Transformers.
 
@@ -51,53 +51,35 @@ MultiSense AI is a cross-platform mobile application that understands both **tex
 ---
 
 ## Architecture
+
+```
 Flutter App (Mobile)
-
-│
-
-│  REST API (Dio)
-
-▼
-
+        │
+        │  REST API (Dio)
+        ▼
 FastAPI Backend (HuggingFace Spaces)
-
-│
-
-┌────┴────────────┐
-
-▼                 ▼
-
+        │
+   ┌────┴────────────┐
+   ▼                 ▼
 Text Pipeline     Image Pipeline
-
-│                 │
-
-├─ RoBERTa        ├─ EasyOCR
-
-├─ DistilBERT     ├─ CLIP
-
-├─ Emotion Model  └─ VaderSentiment
-
-└─ VaderSentiment
+   │                 │
+   ├─ RoBERTa        ├─ EasyOCR
+   ├─ DistilBERT     ├─ CLIP
+   ├─ Emotion Model  └─ VaderSentiment
+   └─ VaderSentiment
+```
 
 ---
 
-## API Reference
-
-**Base URL:** `https://kunaltyagi1532-multisense-ai.hf.space`
-
-| Method | Endpoint | Description |
-|---|---|---|
-| `GET` | `/health` | Health check |
-| `POST` | `/analyze-text?text=...` | Analyze text sentiment |
-| `POST` | `/analyze-image` | Analyze uploaded image (multipart/form-data) |
-
----
 
 ## Screenshots
 
 | Text Analysis | Image Analysis | Dark Mode |
 |---|---|---|
-| Add Screenshot | Add Screenshot | Add Screenshot |
+| <img width="211" height="476" alt="image" src="https://github.com/user-attachments/assets/6f84fa3e-68f9-4717-b117-3629310f5900" />
+ | <img width="206" height="467" alt="image" src="https://github.com/user-attachments/assets/9791a619-a928-4eca-97b3-09196e92a641" />
+ | <img width="201" height="472" alt="image" src="https://github.com/user-attachments/assets/03b16f24-5d1f-447d-8f3e-ecc2a81778cc" />
+ |
 
 ---
 
@@ -119,8 +101,3 @@ flutter run
 > The backend is already live on Hugging Face Spaces — no local server setup needed.
 
 ---
-
-## Author
-
-**Kunal Tyagi**  
-B.Tech CSE — Artificial Intelligence & Machine Learning
