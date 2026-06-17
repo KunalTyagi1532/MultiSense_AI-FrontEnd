@@ -76,10 +76,8 @@ Text Pipeline     Image Pipeline
 
 | Text Analysis | Image Analysis | Dark Mode |
 |---|---|---|
-| <img width="211" height="476" alt="image" src="https://github.com/user-attachments/assets/6f84fa3e-68f9-4717-b117-3629310f5900" />
- | <img width="206" height="467" alt="image" src="https://github.com/user-attachments/assets/9791a619-a928-4eca-97b3-09196e92a641" />
- | <img width="201" height="472" alt="image" src="https://github.com/user-attachments/assets/03b16f24-5d1f-447d-8f3e-ecc2a81778cc" />
- |
+| <img width="211" height="476" src="https://github.com/user-attachments/assets/6f84fa3e-68f9-4717-b117-3629310f5900" /> | <img width="206" height="467" src="https://github.com/user-attachments/assets/9791a619-a928-4eca-97b3-09196e92a641" /> | <img width="201" height="472" src="https://github.com/user-attachments/assets/03b16f24-5d1f-447d-8f3e-ecc2a81778cc" /> |
+
 
 ---
 
